@@ -11,10 +11,6 @@ const Scoops = () => {
       .get("http://localhost:3050/scoops")
       .then((res) => setScoopData(res.data));
   }, []);
-<<<<<<< HEAD
-  console.log(basket);
-=======
->>>>>>> d6f7a241912506dd82c8f255900f75a060207391
 
   return (
     <div className="container">

@@ -7,14 +7,9 @@ const Card = ({ scoop, basket, setBasket }) => {
 
   //to clear the same scoops
   const handleReset = () => {
-<<<<<<< HEAD
-    const clear = basket.filter((item) => item.name !== scoop.name);
-    setBasket(clear);
-=======
     const clearBasket = basket.filter((item) => item.name !== scoop.name);
 
     setBasket(clearBasket);
->>>>>>> d6f7a241912506dd82c8f255900f75a060207391
   };
 
   return (

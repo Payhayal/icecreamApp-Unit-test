@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-import React from "react";
-
-const Toppings = () => {
-  return <div>Toppings</div>;
-=======
 import axios from "axios";
 import { useEffect, useState } from "react";
 
@@ -53,7 +47,6 @@ const Toppings = () => {
       </div>
     </div>
   );
->>>>>>> d6f7a241912506dd82c8f255900f75a060207391
 };
 
 export default Toppings;
