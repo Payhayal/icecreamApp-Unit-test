@@ -3,7 +3,11 @@ import React, { useState } from "react";
 const Form = () => {
   const [isChecked, setIsChecked] = useState(false);
   const [isHover, setIsHover] = useState(false);
+<<<<<<< HEAD
   console.log(isHover);
+=======
+
+>>>>>>> d6f7a241912506dd82c8f255900f75a060207391
   return (
     <div className="my-4 d-flex justify-content-center align-items-center gap-3">
       <input
