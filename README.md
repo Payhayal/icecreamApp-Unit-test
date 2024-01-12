@@ -1,6 +1,8 @@
-# This is a basic Icecream-App created with React. In this project, I tested each component(scoops, toppings,form etc..) in isolation to ensure they behave as expected by using testing library. It provides utilities for simulating user events (like typing, clicking, etc.) in tests to ensure your components behave as expected.
+## This is a basic Icecream-App created with React.
 
-Please look at the gif and photos for more information.
+## In this project, I tested each component(scoops, toppings,form) in isolation to ensure they behave as expected by using testing library. It provides utilities for simulating user events (like typing, clicking, etc.) in tests to ensure your components behave as expected.
+
+<span>👉</span>Please look at the gif and photos for more information<span>😉</span>
 
 ## SCREEN GIF
 
