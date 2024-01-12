@@ -1,9 +1,6 @@
 import { render, screen, waitFor } from "@testing-library/react";
 import Scoops from ".";
-<<<<<<< HEAD
-=======
 import userEvent from "@testing-library/user-event";
->>>>>>> d6f7a241912506dd82c8f255900f75a060207391
 
 /* matchers 
 * get/find/query+[All]+By+matcher
@@ -19,8 +16,6 @@ test("A card is rendered for each type coming from the API", async () => {
   //   Is the number of images received 4?
   expect(images).toHaveLength(4);
 });
-<<<<<<< HEAD
-=======
 
 test("Does the total price increase when the add button is clicked?", async () => {
   render(<Scoops />);
@@ -72,4 +67,3 @@ test("Does the total price decrease when the clear button is clicked?", async ()
 
   await waitFor(() => expect(total).toHaveTextContent("0"));
 });
->>>>>>> d6f7a241912506dd82c8f255900f75a060207391
