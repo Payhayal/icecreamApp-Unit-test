@@ -15,9 +15,9 @@ const Form = () => {
       <div className="terms">
         <p
           style={{ visibility: isHover ? "visible" : "hidden" }}
-          className="bg-light rounded p-2 shadow"
+          className="bg-danger text-white rounded p-2 shadow"
         >
-          We won`t deliver anything to you :D
+          We won`t deliver anything to you<span>🤪🤭🤫</span>
         </p>
         <label htmlFor="terms" className="lead">
           I have read and accept the conditions

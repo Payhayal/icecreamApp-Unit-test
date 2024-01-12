@@ -7,7 +7,7 @@ test("the effect of adding to the total price", async () => {
   const user = userEvent.setup();
 
   //  call total price
-  const total = screen.getByRole("heading", { name: /Total Price /i });
+  const total = screen.getByText(/Total Toppings Price :/i);
 
   // call the cherries topping and add it to the total
   const cherryCheck = await screen.findByRole("checkbox", {

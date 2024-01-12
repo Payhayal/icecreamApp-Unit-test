@@ -14,13 +14,24 @@ const Scoops = () => {
 
   return (
     <div className="container">
-      <h1 className="d-flex justify-content-center ">Icecream Shop</h1>
-      <p className="fs-2 text-dark font-weight-bold fw-2 ">Each scoop:$5</p>
-      <h2 className="d-flex justify-content-center bg-light rounded p-2 text-danger shadow">
-        Total Scoops: {basket.length}
+      <h1 className="d-flex justify-content-center dondurma ">Icecream Shop</h1>
+      <h2
+        className="d-flex justify-content-start bg-warning text-black rounded text-danger shadow text-nowrap"
+        style={{ width: "350px" }}
+      >
+        Each scoop:$5
       </h2>
-      <h2 className="d-flex justify-content-center bg-light rounded p-2 text-danger shadow">
-        Total Price : ${basket.length * 5}
+      <h2
+        className="d-flex justify-content-center bg-light  rounded p-2 text-danger shadow"
+        style={{ width: "550px" }}
+      >
+        Total Scoops:{basket.length}
+      </h2>
+      <h2
+        className="d-flex justify-content-center bg-danger text-white rounded p-2 text-danger shadow"
+        style={{ width: "550px" }}
+      >
+        Total Price :${basket.length * 5}
       </h2>
       <div className="row gap-5 p-3 justify-content-between">
         {scoopData.map((scoop, i) => (

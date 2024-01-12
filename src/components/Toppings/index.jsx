@@ -18,11 +18,20 @@ const Toppings = () => {
   };
 
   return (
-    <div className="container">
-      <h1 className="d-flex justify-content-center">Toppings</h1>
-      <p>Each topping $2</p>
-      <h2 className="d-flex justify-content-center bg-light rounded p-2 text-danger shadow">
-        Total Price:${basket.length * 2}
+    <div className="container my-5">
+      <h1 className="d-flex justify-content-center dondurma">Toppings</h1>
+      <h2
+        className="d-flex justify-content-start bg-warning text-black rounded text-danger shadow text-nowrap"
+        style={{ width: "350px" }}
+      >
+        Each topping: $2
+      </h2>
+
+      <h2
+        className="d-flex justify-content-center bg-danger text-white rounded p-2 text-danger shadow"
+        style={{ width: "550px" }}
+      >
+        Total Toppings Price : ${basket.length * 2}
       </h2>
 
       <div className="row gap-3 mt-4">
