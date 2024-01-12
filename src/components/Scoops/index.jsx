@@ -14,7 +14,9 @@ const Scoops = () => {
 
   return (
     <div className="container">
-      <h1 className="d-flex justify-content-center dondurma ">Icecream Shop</h1>
+      <h1 className="d-flex justify-content-center dondurma ">
+        <span>🍨🍦</span>Ice Cream Shop<span>🍨🍦</span>
+      </h1>
       <h2
         className="d-flex justify-content-start bg-warning text-black rounded text-danger shadow text-nowrap"
         style={{ width: "350px" }}

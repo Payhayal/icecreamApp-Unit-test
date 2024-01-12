@@ -6,7 +6,7 @@
 
 ## SCREEN GIF
 
-![](public/images2/ice.gif)
+![](public/images2/icecream.gif)
 
 ## SCREEN VIEW
 
